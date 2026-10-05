@@ -1,0 +1,9 @@
+n = int (input("Enter your n value "))
+
+F1 = 0
+F2= 1
+for i in range (0, n+1):
+    print (F1,end="  ")
+    Next = F1 + F2
+    F1 = F2
+    F2 = Next
